@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../../App.css';
 import './menu-item.styles.scss';
 import {withRouter} from 'react-router-dom';
 
