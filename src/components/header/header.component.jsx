@@ -5,6 +5,10 @@ import {ReactComponent as Logo} from '../../assets/crown.svg';
 import {auth} from '../../firebase/firebase.utils';
 import {connect} from 'react-redux';
 
+const mapStateToProps =state=> ({
+    currentUser: state.user.currentUser
+});
+
 const Header =({currentUser}) => (
     <div className='header'>
         <Link to="/" className='logo-container'>
@@ -31,8 +35,5 @@ const Header =({currentUser}) => (
         </div>
     </div>
 );
-const mapStateToProps =state=> ({
-    currentUser: state.user.currentUser
-})
 
 export default connect(mapStateToProps)(Header);
