@@ -45,11 +45,13 @@ export const CollectionFooterContainer = styled.div`
 `;
 
 export const NameContainer = styled.span`
-  width: 90%;
+  width: 10%;
   margin-bottom: 15px;
+  
 `;
 
 export const PriceContainer = styled.span`
-  width: 10%;
-  text-align: right;
+  width: 90%;
+  
+  
 `;
