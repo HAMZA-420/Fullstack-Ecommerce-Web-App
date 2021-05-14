@@ -13,7 +13,6 @@ import CheckoutPage from './components/pages/checkout/checkout.component';
 
 class App extends React.Component {
   
-
   unsubscribeFromAuth = null;
 
   componentDidMount() {
